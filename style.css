@@ -1,0 +1,385 @@
+@font-face {
+    font-family: orbitron;
+    src: url(fonts/Orbitron-Regular.ttf);
+}
+body{
+    background: radial-gradient(circle, white, lightgray);
+}
+body {
+    margin: 0px;
+}
+
+nav {
+    position: fixed;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    margin: 10px 0px;
+    transform: translateX(-90%);
+    transition: all 0.5s;
+}
+
+li:hover {
+    transform: translateX(0%);
+}
+
+ul a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: right;
+    padding-right: 30px;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 0px 4px 4px 0px;
+}
+
+h1 {
+    font-family: orbitron;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 1.5em;
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.corVerde {
+    background-color: green;
+}
+
+.corAzul {
+    background-color: blue;
+}
+
+.corVermelho {
+    background-color: red;
+}
+
+.corAmarelo {
+    background-color: yellow;
+}
+
+.corRoxo {
+    background-color: purple;
+}
+
+.corLaranja {
+    background-color: orangered;
+}
+
+@media screen and (max-width: 1100px) {
+        header {
+        background-image: url(imagens/topo_640.jpg);
+        height: 128px;
+    }
+    nav {
+        top: 138px;
+    }
+    h1 {
+        font-size: 30px;
+        border-bottom: 10px solid red;
+        margin: 0px 50px;
+    }
+    .container {
+        position: relative;
+        padding: 20px;
+        height: 300px;
+    }
+
+    .html5 img {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        margin-left: -100px;
+        width: 200px;
+        z-index: 1;
+        transition: all 0.3s;
+    }
+
+    .css3 img {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        width: 200px;
+        transform: rotate(-20deg);
+        transition: all 0.3s;
+    }
+
+    .js img {
+        position: absolute;
+        top: 20%;
+        left: 49%;
+        width: 200px;
+        transform: rotate(20deg);
+        transition: all 0.3s;
+    }
+
+    .html5 img:hover {
+        width: 300px;
+        top: 20%;
+        left: 43%;
+    }
+
+    .js img:hover {
+        transform: rotate(0deg);
+        z-index: 1;
+        width: 300px;
+        top: 19%;
+        left: 50%;
+    }
+
+    .css3 img:hover {
+        transform: rotate(0deg);
+        z-index: 1;
+        width: 300px;
+        top: 20%;
+        left: 1%;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1280px) {
+    header {
+        background-image: url(imagens/topo_640.jpg);
+        height: 128px;
+    }
+    nav {
+        top: 138px;
+    }
+    h1 {
+        font-size: 30px;
+        border-bottom: 10px solid red;
+        margin: 0px 50px;
+    }
+    .container {
+        position: relative;
+        padding: 20px;
+        height: 300px;
+    }
+
+    .html5 img {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        margin-left: -100px;
+        width: 200px;
+        z-index: 1;
+        transition: all 0.3s;
+    }
+
+    .css3 img {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        width: 200px;
+        transform: rotate(-20deg);
+        transition: all 0.3s;
+    }
+
+    .js img {
+        position: absolute;
+        top: 20%;
+        left: 49%;
+        width: 200px;
+        transform: rotate(20deg);
+        transition: all 0.3s;
+    }
+
+    .html5 img:hover {
+        width: 300px;
+        top: 20%;
+        left: 45%;
+    }
+
+    .js img:hover {
+        transform: rotate(0deg);
+        z-index: 1;
+        width: 300px;
+        top: 19%;
+        left: 50%;
+    }
+
+    .css3 img:hover {
+        transform: rotate(0deg);
+        z-index: 1;
+        width: 300px;
+        top: 20%;
+        left: 16%;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1920px) {
+    header {
+        background-image: url(imagens/topo_1280.jpg);
+        height: 256px;
+    }
+    nav {
+        top: 266px;
+    }
+    h1 {
+        font-size: 50px;
+        border-bottom: 15px solid red;
+        margin: 0px 150px;
+    }
+    .container {
+        position: relative;
+        padding: 20px;
+        height: 300px;
+    }
+
+    .html5 img {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        margin-left: -100px;
+        width: 200px;
+        z-index: 1;
+        transition: all 0.3s;
+    }
+
+    .css3 img {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        width: 200px;
+        transform: rotate(-20deg);
+        transition: all 0.3s;
+    }
+
+    .js img {
+        position: absolute;
+        top: 20%;
+        left: 49%;
+        width: 200px;
+        transform: rotate(20deg);
+        transition: all 0.3s;
+    }
+
+    .html5 img:hover {
+        width: 300px;
+        top: 20%;
+        left: 46%;
+    }
+
+    .js img:hover {
+        transform: rotate(0deg);
+        z-index: 1;
+        width: 300px;
+        top: 19%;
+        left: 50%;
+    }
+
+    .css3 img:hover {
+        transform: rotate(0deg);
+        z-index: 1;
+        width: 300px;
+        top: 20%;
+        left: 19%;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    header {
+        background-image: url(imagens/topo_1920.jpg);
+        height: 384px;
+    }
+    nav {
+        top: 394px;
+    }
+    h1 {
+        font-size: 70px;
+        border-bottom: 20px solid red;
+        margin: 0px 700px;
+    }
+    .container {
+        position: relative;
+        padding: 20px;
+        height: 300px;
+    }
+
+    .html5 img {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        margin-left: -100px;
+        width: 200px;
+        z-index: 1;
+        transition: all 0.3s;
+    }
+
+    .css3 img {
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        width: 200px;
+        transform: rotate(-20deg);
+        transition: all 0.3s;
+    }
+
+    .js img {
+        position: absolute;
+        top: 20%;
+        left: 49%;
+        width: 200px;
+        transform: rotate(20deg);
+        transition: all 0.3s;
+    }
+
+    .html5 img:hover {
+        width: 300px;
+        top: 20%;
+        left: 48%;
+    }
+
+    .js img:hover {
+        transform: rotate(0deg);
+        z-index: 1;
+        width: 300px;
+        top: 19%;
+        left: 50%;
+    }
+
+    .css3 img:hover {
+        transform: rotate(0deg);
+        z-index: 1;
+        width: 300px;
+        top: 20%;
+        left: 32%;
+    }
+}
+
+section {
+    margin: 0px 200px;
+    text-align: justify;
+    font-family: monospace;
+}
+section h1{
+    color: black;
+    border-bottom: 0px solid;
+    font-size: 25px;
+}
+footer img {
+    width: 50px;
+    opacity: 0.5;
+}
+
+footer img:hover {
+    opacity: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
